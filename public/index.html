@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+
+  <link rel="icon"  href="img/1.ico">
+  <title>Cartas Undertale</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<b class="textito"></b>
+
+
+<!-- Juego online -->
+
+<button class="instanciar" style="display: none;" id="start">Start</button>
+
+
+<div class="instanciar" style="display: none;" id="menu">
+
+  <b id="puntuacionBlue">0</b>
+  <b id="textTurn">Turno: Loading...</b>
+  <b id="puntuacionRed">0</b>
+  
+</div>
+
+
+<div class="instanciar" style="display: none;" id="container-controles">
+  <button class="control control1">Jugador 1</button>
+  <button class="control control2">Jugador 2</button>
+</div>
+
+
+<div class="instanciar" style="display: none;" id="container-game">
+
+  <div class="container-cart">
+
+
+  <img class="cart cart1">
+  <img class="cart cart2">
+  <img class="cart cart3">
+  <img class="cart cart4">
+  <img class="cart cart5">
+  <img class="cart cart6">
+  <img class="cart cart7">
+  <img class="cart cart8">
+  <img class="cart cart9">
+  <img class="cart cart10">
+  <img class="cart cart11">
+  <img class="cart cart12">
+  <img class="cart cart13">
+  <img class="cart cart14">
+  <img class="cart cart15">
+  <img class="cart cart16">
+  <img class="cart cart17">
+  <img class="cart cart18">
+  <img class="cart cart19">
+  <img class="cart cart20">
+  <img class="cart cart21">
+  <img class="cart cart22">
+  <img class="cart cart23">
+  <img class="cart cart24">
+  <img class="cart cart25">
+  <img class="cart cart26">
+  <img class="cart cart27">
+  <img class="cart cart28">
+  <img class="cart cart29">
+  <img class="cart cart30">
+  <img class="cart cart31">
+  <img class="cart cart32">
+  <img class="cart cart33">
+  <img class="cart cart34">
+  <img class="cart cart35">
+  <img class="cart cart36">
+  <img class="cart cart37">
+  <img class="cart cart38">
+  <img class="cart cart39">
+  <img class="cart cart40">
+  <img class="cart cart41">
+  <img class="cart cart42">
+  <img class="cart cart43">
+  <img class="cart cart44">
+  <img class="cart cart45">
+  <img class="cart cart46">
+  <img class="cart cart47">
+  <img class="cart cart48">
+  
+  </div>
+  
+</div>
+
+
+
+<section id="cargando">
+  <div class="container-cargando">
+    <div style="user-select: none;" id="valueCargando">
+      0%
+    </div>
+
+    <!-- <img onerror="falloImg()" onload="exitosaCarga()" id="img-cargar"></img> -->
+      <img class="cartm" id="img-cargar"></img>
+
+
+  </div>
+</section>
+
+<!-- Verificar si la etiqueta audio acepta el atributo onerror -->
+<!-- Luego de verificar, activar al comenzar la partida para cumplir la política -->
+<audio onerror="musicError()" onload="musicError()" src="instrumental/music1.mp4" loop></audio>
+
+
+
+
+
+
+  <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+
+</body>
+</html>
