@@ -5,6 +5,8 @@ const path = require("path");
 //settings
 app.set("port", process.env.PORT || 3000);
 
+console.log("hwaehisd");
+
 //static files
 app.use(express.static(path.join(__dirname + '/public')));
 // console.log(__dirname + "/public")
